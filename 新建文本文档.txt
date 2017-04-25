@@ -1,0 +1,30 @@
+localStorage
+本地数据，存储部分数据在本地，关闭浏览器后不清除，下次开启时还能继续使用
+Storage {length: 0}
+
+sessionStorage
+会话数据，页面开始访问时存储数据，当页面关闭后，会话结束并清除数据
+Storage {length: 0}
+sessionStorage.clear		清除所有数据
+sessionStorage.setItem		设置数据项
+    sessionStorage.setItem('a','123')
+sessionStorage.getItem		获取数据项
+    sessionStorage.setItem('a')
+sessionStorage.length		数据长度
+sessionStorage.removeItem	删除数据项
+    sessionStorage.removeItem('a')
+
+Storage
+function Storage() { [native code] }
+
+
+--------------------------------------
+
+北京新华祥瑞科技有限公司	4.25  9:00
+北京海淀区清河三街95号同源大厦12层140室
+
+
+
+
+
+
